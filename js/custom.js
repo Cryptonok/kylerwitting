@@ -31,13 +31,6 @@ function faceBook() {
   window.location.assign("https://www.facebook.com/kyler.witting")
 }
 
-$(document).ready(function() {
-  $('#emailBtn').click(function() {
-    $('#fr1').attr('action',
-                   'mailto:kylerwitting@gmail.com?subject=';
-                   });
-  });
-
-  $( "#emailBtn" ).on( "click", function(event) {
-    $(this).attr('href', 'mailto:kylerwitting@gmail.com');
-  });
+$( "#emailBtn" ).on( "click", function(event) {
+  $(this).attr('href', 'mailto:kylerwitting@gmail.com');
+});
