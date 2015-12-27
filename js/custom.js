@@ -22,3 +22,11 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+function gitHub() {
+    window.location.assign("https://github.com/KylerWitting")
+}
+
+function faceBook() {
+    window.location.assign("https://www.facebook.com/kyler.witting")
+}
