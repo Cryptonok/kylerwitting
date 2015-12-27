@@ -24,7 +24,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 function gitHub() {
-  window.location.assign("https://github.com/KylerWitting")
+  window.open("https://github.com/KylerWitting")
 }
 
 function faceBook() {
