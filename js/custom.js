@@ -23,6 +23,7 @@ $('.navbar-collapse ul li a').click(function() {
   $('.navbar-toggle:visible').click();
 });
 
+
 function gitHub() {
   window.open("https://github.com/KylerWitting")
 }
@@ -34,6 +35,3 @@ function faceBook() {
 function emailBtn() {
   window.open("mailto:kylerwitting@gmail.com")
 }
-//$( "#emailBtn" ).on( "click", function(event) {
-//  $(this).attr('href', 'mailto:kylerwitting@gmail.com');
-//});
