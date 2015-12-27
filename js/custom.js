@@ -28,9 +28,12 @@ function gitHub() {
 }
 
 function faceBook() {
-  window.location.assign("https://www.facebook.com/kyler.witting")
+  window.open("https://www.facebook.com/kyler.witting")
 }
 
-$( "#emailBtn" ).on( "click", function(event) {
-  $(this).attr('href', 'mailto:kylerwitting@gmail.com');
-});
+function emailBtn() {
+  window.open("mailto:kylerwitting@gmail.com")
+}
+//$( "#emailBtn" ).on( "click", function(event) {
+//  $(this).attr('href', 'mailto:kylerwitting@gmail.com');
+//});
