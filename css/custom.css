@@ -307,3 +307,12 @@ body {
   text-align: left;
   margin-left: 80px;
 }
+
+#downloadContact {
+  margin-top: 100px;
+}
+
+#footer {
+  margin-top: 400px;
+  margin-bottom: 0px;
+}
